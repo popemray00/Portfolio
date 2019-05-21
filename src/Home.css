@@ -1,29 +1,36 @@
-.Header {
-  background-color:rgb(177, 172, 208) ;
-  align-items: center;
-  display: inline-flex;
-  width: 100%;
+.jumbotron {
+  text-align: center;
   height: 100%;
+  border-style: dashed;
+  border-color: black;
 }
 
-.Header h1 {
-  font-size: 150px;
+.jumbotron h1 {
+  font-size: 10vw;
+  font-style: oblique;
+
 }
 
-.About {
+
+
+.container-fluid {
   width: 100%;
   display: inline-block;
+  background-color: rgb(219, 219, 219);
 }
 
-.AboutImg {
-  text-align: left;
+.container-fluid .SelfPic {
+  float: left;
   width: 25%;
+  border-radius: 50px;
 }
 
-.HomePic {
-  width: 100%;
+.container-fluid h1 {
+  padding-top: 50px;
 }
 
-.AboutMe {
+.container-fluid p {
+  padding: 50px 20px 0px 400px;
+  text-align: center;
 
 }
