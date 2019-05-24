@@ -7,6 +7,10 @@
   height: 100%;
   border-style: dashed;
   border-color: black;
+  background-image: url("https://truetech-v4.s3.amazonaws.com/uploads/article/image/12/christopher-gower-291246.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .jumbotron h1 {
@@ -65,10 +69,6 @@
 }
 
 .ContactMe {
-  background-image: url("https://truetech-v4.s3.amazonaws.com/uploads/article/image/12/christopher-gower-291246.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 600px;
 }
 
 .ContactMe h1 {

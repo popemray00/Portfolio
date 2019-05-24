@@ -32,10 +32,10 @@ class Home extends React.Component {
           <div className="jumbotron jumbotron-fluid">
             <div className="container">
               <div id="Header">
-                <h1> <span class="badge badge-dark">Michael Pope </span></h1>
-                <h2>Full-Stack-Developer</h2>
-                <h3>Husband & Father</h3>
-                <h4>Dog Lover</h4>
+                <h1><span class="badge badge-dark">Michael Pope </span></h1>
+                <h2><span class="badge badge-light">Full-Stack-Developer</span></h2>
+                <h3><span class="badge badge-dark">Husband & Father</span></h3>
+                <h4><span class="badge badge-light">Dog Lover</span></h4>
               </div>
             </div>
           </div>
@@ -87,8 +87,16 @@ class Home extends React.Component {
               <p>Popemray1986@gmail.com</p><br />
               <h2>PHONE:</h2>
               <p>971-506-8410</p>
+              <h2>SOCIAL:</h2>
               <div className="Social">
-                
+                <ul>
+                  <i class="fab fa-facebook fa-5x"></i>
+                  <i class="fab fa-instagram fa-5x"></i>
+                  <i class="fab fa-github fa-5x"></i>
+                  <i class="fab fa-linkedin fa-5x"></i>
+                  <i class="fab fa-twitter fa-5x"></i>
+
+                </ul>
               </div>
 
 
