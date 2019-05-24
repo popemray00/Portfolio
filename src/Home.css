@@ -75,3 +75,40 @@
   text-align: left;
   text-decoration: underline;
 }
+
+.ContactMe p {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.ContactMe ul i {
+  padding-left: 20px;
+}
+
+.ContactMe #facebook:hover {
+  color: black;
+}
+
+.ContactMe #instagram {
+  color: black;
+}
+
+.ContactMe #instagram:hover {
+  color: #007bff;
+}
+
+.ContactMe #linkedin:hover {
+  color: black;
+}
+
+.ContactMe #github {
+  color: black;
+}
+
+.ContactMe #github:hover {
+  color: #007bff;
+}
+
+.ContactMe #twitter:hover {
+  color: black;
+}

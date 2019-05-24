@@ -84,22 +84,19 @@ class Home extends React.Component {
             <a id="Contact">
               <h1><span class="badge badge-secondary">Contact</span></h1>
               <h2>EMAIL:</h2>
-              <p>Popemray1986@gmail.com</p><br />
+              <a href="mailto:Popemray1986@gmail.com"><p id="email"><span class="badge badge-dark">Popemray1986@gmail.com</span></p></a><br />
               <h2>PHONE:</h2>
-              <p>971-506-8410</p>
+              <p><span class="badge badge-dark">971-506-8410</span></p>
               <h2>SOCIAL:</h2>
               <div className="Social">
                 <ul>
-                  <i class="fab fa-facebook fa-5x"></i>
-                  <i class="fab fa-instagram fa-5x"></i>
-                  <i class="fab fa-github fa-5x"></i>
-                  <i class="fab fa-linkedin fa-5x"></i>
-                  <i class="fab fa-twitter fa-5x"></i>
-
+                  <a href="https://www.facebook.com/michael.pope.399" target="_blank"><i id="facebook" class="fab fa-facebook fa-5x"></i></a>
+                  <a href="https://www.instagram.com/the_popesicle/" target="_blank"><i id="instagram" class="fab fa-instagram fa-5x"></i></a>
+                  <a href="https://www.linkedin.com/in/michael-pope00/" target="_blank"><i id="linkedin" class="fab fa-linkedin fa-5x"></i></a>
+                  <a href="https://github.com/popemray00" target="_blank"><i id="github" class="fab fa-github fa-5x"></i></a>
+                  <a href="https://twitter.com/popemon86" target="_blank"><i id="twitter" class="fab fa-twitter fa-5x"></i></a>
                 </ul>
               </div>
-
-
             </a>
           </div>
         </div>
