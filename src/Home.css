@@ -1,3 +1,7 @@
+.nav-link {
+  font-size: 40px;
+}
+
 .jumbotron {
   text-align: center;
   height: 100%;
@@ -8,29 +12,66 @@
 .jumbotron h1 {
   font-size: 10vw;
   font-style: oblique;
-
 }
 
-
-
-.container-fluid {
-  width: 100%;
+.About {
   display: inline-block;
   background-color: rgb(219, 219, 219);
 }
 
-.container-fluid .SelfPic {
+.About .SelfPic {
   float: left;
   width: 25%;
   border-radius: 50px;
 }
 
-.container-fluid h1 {
-  padding-top: 50px;
+.About h1 {
+  width: 100%;
 }
 
-.container-fluid p {
-  padding: 50px 20px 0px 400px;
+.About p {
+  padding: 50px 20px 0px 400px; /*remove from smaller screens*/
   text-align: center;
+  width: 100%;
+  font-size: 18px;
+}
 
+.Client-Projects {
+  background-color: white;
+}
+
+.Client-Projects h1 {
+  text-align: left;
+  text-decoration: underline;
+}
+
+.Client-Projects p {
+  font-size: 18px;
+}
+
+.Side-Projects {
+  background-color: white;
+}
+
+.container-fluid .Side-Projects h1 {
+  text-align: left;
+  text-decoration: underline;
+}
+
+.container-fluid {
+  width: 100%;
+  margin-top: 20px;
+  border-bottom: solid;
+}
+
+.ContactMe {
+  background-image: url("https://truetech-v4.s3.amazonaws.com/uploads/article/image/12/christopher-gower-291246.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.ContactMe h1 {
+  text-align: left;
+  text-decoration: underline;
 }
