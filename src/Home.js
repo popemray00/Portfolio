@@ -64,7 +64,7 @@ class Home extends React.Component {
                 <div class="col">
                   <a href="https://crossfitdismantle.herokuapp.com"><h3>CrossFit Dismantle</h3></a>
                   <img src="images/Logo.png" />
-                  <p>CrossFit Dismantle is a Full-Stack-App, using a React.js frontend and a Ruby-on-Rails/PostgreSQL backend. Styled using CSS3 and bootstrap, Dismantle is a fully responsive app that works with a PC, tablet, or mobile. The client gave me full control on how the site would be structured and the way it would look. This is my first site up on the internet and with all the bugs and errors that occured, I was able to prove to myself I can problem solve and complete each task.</p>
+                  <p>CrossFit Dismantle is a Full-Stack-App, using a React.js frontend and a Ruby-on-Rails/PostgreSQL backend. Styled using CSS3 and bootstrap, Dismantle is a fully responsive app that works with a PC, tablet, or mobile. The client gave me full control on how the site would be structured and full creativity on the apperance of the site. Even with all the bugs and errors that occured, I was able to prove to myself I can problem solve each one and was able to complete each task and meet every deadline.</p>
                 </div>
               </div>
             </a>
@@ -83,11 +83,13 @@ class Home extends React.Component {
           <div className="ContactMe">
             <a id="Contact">
               <h1><span class="badge badge-secondary">Contact</span></h1>
-              <h2>EMAIL:</h2>
-              <a href="mailto:Popemray1986@gmail.com"><p id="email"><span class="badge badge-dark">Popemray1986@gmail.com</span></p></a><br />
-              <h2>PHONE:</h2>
-              <p><span class="badge badge-dark">971-506-8410</span></p><br />
-              <h2>SOCIAL:</h2>
+              <h2><span class="badge badge-dark">EMAIL:</span></h2>
+              <a href="mailto:Popemray1986@gmail.com"><p className="ContactLink">Popemray1986@gmail.com</p></a><br />
+              <h2><span class="badge badge-dark">PHONE:</span></h2>
+              <p>971-506-8410</p><br />
+              <h2><span class="badge badge-dark">Blog:</span></h2>
+              <a href="https://www.blogger.com/profile/12883160633696402998"><p className="ContactLink">My Blog</p></a><br />
+              <h2><span class="badge badge-dark">SOCIAL:</span></h2>
               <div className="Social">
                 <ul>
                   <a href="https://www.facebook.com/michael.pope.399" target="_blank"><i id="facebook" class="fab fa-facebook fa-5x"></i></a>
