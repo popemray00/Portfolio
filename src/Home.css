@@ -112,3 +112,11 @@
 .ContactMe #twitter:hover {
   color: black;
 }
+
+.ContactMe #slack {
+  color: black;
+}
+
+.ContactMe #slack:hover {
+  color: #007bff;
+}

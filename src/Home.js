@@ -64,7 +64,7 @@ class Home extends React.Component {
                 <div class="col">
                   <a href="https://crossfitdismantle.herokuapp.com"><h3>CrossFit Dismantle</h3></a>
                   <img src="images/Logo.png" />
-                  <p>CrossFit Dismantle is a Full-Stack-App, using a React.js frontend and a Ruby-on-Rails/PostgreSQL backend. Styled using CSS3 and bootstrap, Dismantle is a fully responsive app that works with a PC, tablet, or phone. The client gave me full control on how the site would be structured and the way it would look. This is my first site up on the internet and will all the bugs and errors that occured, I was able to prove to myself I can problem solve and complete each task.</p>
+                  <p>CrossFit Dismantle is a Full-Stack-App, using a React.js frontend and a Ruby-on-Rails/PostgreSQL backend. Styled using CSS3 and bootstrap, Dismantle is a fully responsive app that works with a PC, tablet, or mobile. The client gave me full control on how the site would be structured and the way it would look. This is my first site up on the internet and with all the bugs and errors that occured, I was able to prove to myself I can problem solve and complete each task.</p>
                 </div>
               </div>
             </a>
@@ -86,7 +86,7 @@ class Home extends React.Component {
               <h2>EMAIL:</h2>
               <a href="mailto:Popemray1986@gmail.com"><p id="email"><span class="badge badge-dark">Popemray1986@gmail.com</span></p></a><br />
               <h2>PHONE:</h2>
-              <p><span class="badge badge-dark">971-506-8410</span></p>
+              <p><span class="badge badge-dark">971-506-8410</span></p><br />
               <h2>SOCIAL:</h2>
               <div className="Social">
                 <ul>
@@ -95,6 +95,7 @@ class Home extends React.Component {
                   <a href="https://www.linkedin.com/in/michael-pope00/" target="_blank"><i id="linkedin" class="fab fa-linkedin fa-5x"></i></a>
                   <a href="https://github.com/popemray00" target="_blank"><i id="github" class="fab fa-github fa-5x"></i></a>
                   <a href="https://twitter.com/popemon86" target="_blank"><i id="twitter" class="fab fa-twitter fa-5x"></i></a>
+                  <a href="https://learn-co.slack.com/messages/D6EGQJJ31/" target="_blank"><i id="slack" class="fab fa-slack fa-5x"></i></a>
                 </ul>
               </div>
             </a>
