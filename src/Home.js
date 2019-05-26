@@ -62,8 +62,8 @@ class Home extends React.Component {
               <h1><span class="badge badge-secondary">Client Projects</span></h1>
               <div class="row">
                 <div class="col">
-                  <a href="https://crossfitdismantle.herokuapp.com"><h3>CrossFit Dismantle</h3></a>
-                  <img src="images/Logo.png" />
+                  <a href="https://crossfitdismantle.herokuapp.com"><h3>CrossFit Dismantle</h3></a><br />
+                  <img src="images/Logo.png"/><br /><br />
                   <p>CrossFit Dismantle is a Full-Stack-App, using a React.js frontend and a Ruby-on-Rails/PostgreSQL backend. Styled using CSS3 and bootstrap, Dismantle is a fully responsive app that works with a PC, tablet, or mobile. The client gave me full control on how the site would be structured and full creativity on the apperance of the site. Even with all the bugs and errors that occured, I was able to prove to myself I can problem solve each one and was able to complete each task and meet every deadline.</p>
                 </div>
               </div>
@@ -75,6 +75,53 @@ class Home extends React.Component {
           <div className="Side-Projects">
             <a id="Side">
               <h1><span class="badge badge-secondary">Side Projects</span></h1>
+                <div class="card-deck">
+                  <div class="card bg-primary">
+                    <a className="SideHov" href="https://github.com/popemray00/rails-assessment-v-000" target="-blank">
+                    <img class="card-img-top" id="image" src="images/download.jpg" alt="Card image"></img>
+                    </a>
+                    <div class="card-body text-center">
+                      <h4 class="card-title">Concert Finder</h4>
+                      <p class="card-text">Concert finder allows user to create a login, once logged in the are able to search upcoming concerts as well as purchase tickets. The tickets purchased will get stored a specific area, also will tell you how much money you have left on your account.</p>
+                      <h4>Skills & Languages:</h4>
+                      <p>Ruby on Rails, Validations, ActiveRecord, User Authentication, OAuth, Helper Methods, RESTful URLs</p>
+                    </div>
+                  </div>
+                  <div class="card bg-warning">
+                    <a className="SideHov" href="https://github.com/popemray00/Poker-night-players" target="-blank">
+                    <img class="card-img-top" id="image" src="images/poker.jpg" alt="Card image"></img>
+                    </a>
+                    <div class="card-body text-center">
+                      <h4 class="card-title">Poker Night</h4>
+                      <p class="card-text">Poker night is a App for users to create a database of players for a poker tournament. I made this to keep track of the players in our monthly tournaments, also for new players to look around at the schedule and prize money. If a player wants in they simply input thier information, it gets stored in the database and they just show up to the next event.</p>
+                      <h4>Skills & Languages:</h4>
+                      <p>React.js, Ruby on Rails, Redux, Redux Middleware, Action/Reducers, ES6, Rails API, Procfile, Statless Components, Async Actions, CSS3</p>
+                    </div>
+                  </div>
+                  <div class="card bg-success">
+                    <a className="SideHov" href="https://github.com/popemray00/reactappointments" target="-blank">
+                    <img class="card-img-top" id="image" src="images/comp.jpg" alt="Card image"></img>
+                    </a>
+                    <div class="card-body text-center">
+                      <h4 class="card-title">React Appointments</h4>
+                      <p class="card-text">React Appointments is a React.js app that was built to test my logical skills. I added some styling as well to make it a solid prototype for future use.</p>
+                      <h4>Skills & Languages:</h4>
+                      <p>React.js, CSS3, Lodash, React-Moment, React-Icons</p>
+                    </div>
+                  </div>
+                  <div class="card bg-danger">
+                    <a className="SideHov" href="https://github.com/popemray00/cli-data-gem-assessment-v-000" target="-blank">
+                    <img class="card-img-top" id="image" src="images/gigi.jpg" alt="Card image"></img>
+                    </a>
+                    <div class="card-body text-center">
+                      <p>(^^^ That's my dog ^^^)</p>
+                      <h4 class="card-title">Dogs</h4>
+                      <p class="card-text">Dogs is a Ruby CLI Gem I built that will list the most up-to-date top 50 family friendly dogs according to dogbreedslist.com.</p>
+                      <h4>Skills & Languages:</h4>
+                      <p>Ruby, Nokogiri, Open-Uri, Scraper, OO Desgins</p>
+                    </div>
+                  </div>
+                </div>
             </a>
           </div>
         </div>
