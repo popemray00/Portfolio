@@ -51,7 +51,7 @@ class Home extends React.Component {
               />
               <h1> About Me </h1>
               <p>I'm a full stack web developer with a passion for both Front and Backend development. My experience is in Ruby, Ruby on Rails, JavaScript, and React, with knowledge in many more technologies. I'm coming from a background in sales and customer service, which I will take advantage of as a developer. I discovered web development through a podcast called CodeNewbie which motivated me to pursue my education at The Flatiron School in this field. I bring strong skills in problem solving, ability to learn quickly, customer service/relations and sales. My goal is to provide tremendous value through reliable code and dedication to my work. I'm always on the search for opportunities to learn and grow as a developer.</p>
-              <p>I'm a husband, a father to two amazing kids and a owner of a chocolate lab lap dog!<br /> I enjoy spending time with my family outdoors wether it's camping, fishing, crabing, traveling, or just sitting on the back porch chilling.</p>
+              <p>I'm a husband, a father to two amazing kids and a owner of a chocolate lab lap dog!<br /> I enjoy spending time with my family outdoors whether it's camping, fishing, crabbing, traveling, or just sitting on the back porch chilling.</p>
             </a>
           </div>
         </div>
@@ -64,7 +64,7 @@ class Home extends React.Component {
                 <div class="col">
                   <a href="https://crossfitdismantle.herokuapp.com"><h3>CrossFit Dismantle</h3></a><br />
                   <img src="images/Logo.png"/><br /><br />
-                  <p>CrossFit Dismantle is a Full-Stack-App, using a React.js frontend and a Ruby-on-Rails/PostgreSQL backend. Styled using CSS3 and bootstrap, Dismantle is a fully responsive app that works with a PC, tablet, or mobile. The client gave me full control on how the site would be structured and full creativity on the apperance of the site. Even with all the bugs and errors that occured, I was able to prove to myself I can problem solve each one and was able to complete each task and meet every deadline.</p>
+                  <p>CrossFit Dismantle is a Full-Stack-App, using a React.js frontend and a Ruby-on-Rails/PostgreSQL backend. Styled using CSS3 and bootstrap, Dismantle is a fully responsive app that works with a PC, tablet, or mobile. The client gave me full control on how the site would be structured and full creativity on the appearance of the site. Even with all the bugs and errors that occurred, I was able to prove to myself I can problem solve each one and was able to complete each task and meet every deadline.</p>
                 </div>
               </div>
             </a>
@@ -82,7 +82,7 @@ class Home extends React.Component {
                     </a>
                     <div class="card-body text-center">
                       <h4 class="card-title">Concert Finder</h4>
-                      <p class="card-text">Concert finder allows user to create a login, once logged in the are able to search upcoming concerts as well as purchase tickets. The tickets purchased will get stored a specific area, also will tell you how much money you have left on your account.</p>
+                      <p class="card-text">Concert finder allows user to create a login, once logged in they are able to search upcoming concerts as well as purchase tickets. The tickets purchased will get stored a specific area, also will tell you how much money you have left on your account.</p>
                       <h4>Skills & Languages:</h4>
                       <p>Ruby on Rails, Validations, ActiveRecord, User Authentication, OAuth, Helper Methods, RESTful URLs</p>
                     </div>
@@ -93,9 +93,9 @@ class Home extends React.Component {
                     </a>
                     <div class="card-body text-center">
                       <h4 class="card-title">Poker Night</h4>
-                      <p class="card-text">Poker night is a App for users to create a database of players for a poker tournament. I made this to keep track of the players in our monthly tournaments, also for new players to look around at the schedule and prize money. If a player wants in they simply input thier information, it gets stored in the database and they just show up to the next event.</p>
+                      <p class="card-text">Poker night is a App for users to create a database of players for a poker tournament. I made this to keep track of the players in our monthly tournaments, also for new players to look around at the schedule and prize money. If a player wants in they simply input their information, it gets stored in the database and they just show up to the next event.</p>
                       <h4>Skills & Languages:</h4>
-                      <p>React.js, Ruby on Rails, Redux, Redux Middleware, Action/Reducers, ES6, Rails API, Procfile, Statless Components, Async Actions, CSS3</p>
+                      <p>React.js, Ruby on Rails, Redux, Redux Middleware, Action/Reducers, ES6, Rails API, Procfile, Stateless Components, Async Actions, CSS3</p>
                     </div>
                   </div>
                   <div class="card bg-success">
