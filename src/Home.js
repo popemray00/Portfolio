@@ -6,7 +6,7 @@ class Home extends React.Component {
     return (
       <div>
         {/*Navbar start*/}
-          <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+          <nav id="Nav" class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" href="#Home">Home</a>

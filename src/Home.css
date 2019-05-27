@@ -168,8 +168,8 @@
 
   /*^^^^^^^^^^^^^^^*/
 
-  .nav-link {
-    font-size: 40px;
+  #Nav {
+    display: none;
   }
 
   .jumbotron {
