@@ -87,7 +87,7 @@ class Home extends React.Component {
                       <p>Ruby on Rails, Validations, ActiveRecord, User Authentication, OAuth, Helper Methods, RESTful URLs</p>
                     </div>
                   </div>
-                  <div class="card bg-warning">
+                  <div class="card bg-danger">
                     <a className="SideHov" href="https://github.com/popemray00/Poker-night-players" target="-blank">
                     <img class="card-img-top" id="image" src="images/poker.jpg" alt="Card image"></img>
                     </a>
@@ -98,7 +98,7 @@ class Home extends React.Component {
                       <p>React.js, Ruby on Rails, Redux, Redux Middleware, Action/Reducers, ES6, Rails API, Procfile, Stateless Components, Async Actions, CSS3</p>
                     </div>
                   </div>
-                  <div class="card bg-success">
+                  <div class="card">
                     <a className="SideHov" href="https://github.com/popemray00/reactappointments" target="-blank">
                     <img class="card-img-top" id="image" src="images/comp.jpg" alt="Card image"></img>
                     </a>
