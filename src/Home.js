@@ -98,8 +98,8 @@ class Home extends React.Component {
                       <p>React.js, Ruby on Rails, Redux, Redux Middleware, Action/Reducers, ES6, Rails API, Procfile, Stateless Components, Async Actions, CSS3</p>
                     </div>
                   </div>
-                  <div class="card">
-                    <a className="SideHov" href="https://github.com/popemray00/reactappointments" target="-blank">
+                  <div className="card">
+                    <a className="SideHov" href="https://github.com/popemray00/reactappointments" target="_blank">
                     <img class="card-img-top" id="image" src="images/comp.jpg" alt="Card image"></img>
                     </a>
                     <div class="card-body text-center">
