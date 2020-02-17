@@ -63,7 +63,7 @@ class Home extends React.Component {
               <div class="row">
                 <div class="col">
                   <a href="https://crossfitdismantle.herokuapp.com"><h3>CrossFit Dismantle</h3></a><br />
-                  <img src="images/Logo.png"/><br /><br />
+                  <img src="images/Logo.png" alt="Crossfit"/><br /><br />
                   <p>CrossFit Dismantle is a Full-Stack-App, using a React.js frontend and a Ruby-on-Rails/PostgreSQL backend. Styled using CSS3 and bootstrap, Dismantle is a fully responsive app that works with a PC, tablet, or mobile. The client gave me full control on how the site would be structured and full creativity on the appearance of the site. Even with all the bugs and errors that occurred, I was able to prove to myself I can problem solve each one and was able to complete each task and meet every deadline.</p>
                 </div>
               </div>
@@ -78,7 +78,7 @@ class Home extends React.Component {
                 <div class="card-deck">
                   <div class="card bg-primary">
                     <a className="SideHov" href="https://github.com/popemray00/rails-assessment-v-000" target="-blank">
-                    <img class="card-img-top" id="image" src="images/download.jpg" alt="Card image"></img>
+                    <img class="card-img-top" id="image" src="images/download.jpg" alt="dimage"></img>
                     </a>
                     <div class="card-body text-center">
                       <h4 class="card-title">Concert Finder</h4>
@@ -89,7 +89,7 @@ class Home extends React.Component {
                   </div>
                   <div class="card bg-danger">
                     <a className="SideHov" href="https://github.com/popemray00/Poker-night-players" target="-blank">
-                    <img class="card-img-top" id="image" src="images/poker.jpg" alt="Card image"></img>
+                    <img class="card-img-top" id="image" src="images/poker.jpg" alt="Card i"></img>
                     </a>
                     <div class="card-body text-center">
                       <h4 class="card-title">Poker Night</h4>
@@ -99,8 +99,8 @@ class Home extends React.Component {
                     </div>
                   </div>
                   <div className="card">
-                    <a className="SideHov" href="https://github.com/popemray00/reactappointments" target="_blank">
-                    <img class="card-img-top" id="image" src="images/comp.jpg" alt="Card image"></img>
+                    <a className="SideHov" href="https://github.com/popemray00/reactappointments" target="_blank" rel="noopener noreferrer">
+                    <img class="card-img-top" id="image" src="images/comp.jpg" alt="Cimage"></img>
                     </a>
                     <div class="card-body text-center">
                       <h4 class="card-title">React Appointments</h4>
@@ -111,7 +111,7 @@ class Home extends React.Component {
                   </div>
                   <div class="card bg-danger">
                     <a className="SideHov" href="https://github.com/popemray00/cli-data-gem-assessment-v-000" target="-blank">
-                    <img class="card-img-top" id="image" src="images/gigi.jpg" alt="Card image"></img>
+                    <img class="card-img-top" id="image" src="images/gigi.jpg" alt="Card"></img>
                     </a>
                     <div class="card-body text-center">
                       <p>(^^^ That's my dog ^^^)</p>
@@ -119,6 +119,17 @@ class Home extends React.Component {
                       <p class="card-text">Dogs is a Ruby CLI Gem I built that will list the most up-to-date top 50 family friendly dogs according to dogbreedslist.com.</p>
                       <h4>Skills & Languages:</h4>
                       <p>Ruby, Nokogiri, Open-Uri, Scraper, OO Desgins</p>
+                    </div>
+                  </div>
+                  <div class="card bg-danger">
+                    <a className="SideHov" href="https://github.com/popemray00/gift" target="-blank" rel="noopener noreferrer">
+                    <img class="card-img-top" id="image" src="images/.jpg" alt="Cards"></img>
+                    </a>
+                    <div class="card-body text-center">
+                      <h4 class="card-title">Gift</h4>gametime
+                      <p class="card-text">Gift is a game that has the player generate 2 random numbers hoping that they will match.</p>
+                      <h4>Skills & Languages:</h4>
+                      <p>React, react-straps, bootstrap</p>
                     </div>
                   </div>
                 </div>
@@ -139,12 +150,12 @@ class Home extends React.Component {
               <h2><span class="badge badge-dark">SOCIAL:</span></h2>
               <div className="Social">
                 <ul>
-                  <a href="https://www.facebook.com/michael.pope.399" target="_blank"><i id="facebook" class="fab fa-facebook fa-5x"></i></a>
-                  <a href="https://www.instagram.com/the_popesicle/" target="_blank"><i id="instagram" class="fab fa-instagram fa-5x"></i></a>
-                  <a href="https://www.linkedin.com/in/michael-pope00/" target="_blank"><i id="linkedin" class="fab fa-linkedin fa-5x"></i></a>
-                  <a href="https://github.com/popemray00" target="_blank"><i id="github" class="fab fa-github fa-5x"></i></a>
-                  <a href="https://twitter.com/popemon86" target="_blank"><i id="twitter" class="fab fa-twitter fa-5x"></i></a>
-                  <a href="https://learn-co.slack.com/messages/D6EGQJJ31/" target="_blank"><i id="slack" class="fab fa-slack fa-5x"></i></a>
+                  <a href="https://www.facebook.com/michael.pope.399" target="_blank" rel="noopener noreferrer"><i id="facebook" class="fab fa-facebook fa-5x"></i></a>
+                  <a href="https://www.instagram.com/the_popesicle/" target="_blank" rel="noopener noreferrer"><i id="instagram" class="fab fa-instagram fa-5x"></i></a>
+                  <a href="https://www.linkedin.com/in/michael-pope00/" target="_blank" rel="noopener noreferrer"><i id="linkedin" class="fab fa-linkedin fa-5x"></i></a>
+                  <a href="https://github.com/popemray00" target="_blank" rel="noopener noreferrer"><i id="github" class="fab fa-github fa-5x"></i></a>
+                  <a href="https://twitter.com/popemon86" target="_blank" rel="noopener noreferrer"><i id="twitter" class="fab fa-twitter fa-5x"></i></a>
+                  <a href="https://learn-co.slack.com/messages/D6EGQJJ31/" target="_blank" rel="noopener noreferrer"><i id="slack" class="fab fa-slack fa-5x"></i></a>
                 </ul>
               </div>
             </a>
