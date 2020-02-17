@@ -67,6 +67,16 @@ class Home extends React.Component {
                   <p>CrossFit Dismantle is a Full-Stack-App, using a React.js frontend and a Ruby-on-Rails/PostgreSQL backend. Styled using CSS3 and bootstrap, Dismantle is a fully responsive app that works with a PC, tablet, or mobile. The client gave me full control on how the site would be structured and full creativity on the appearance of the site. Even with all the bugs and errors that occurred, I was able to prove to myself I can problem solve each one and was able to complete each task and meet every deadline.</p>
                 </div>
               </div>
+              <div class="row">
+                <div class="col">
+                  <a href="https://github.com/popemray00/orbis-challenge/tree/master/client/src"><h3>Stock KeepUp</h3></a><br />
+                  <img src="images/stocks.png" alt="Stocks"/><br /><br />
+                  <p>Stock KeepUp is a App that allows user to type in a stock symbol and search for the 30 most recent twitter messages that include that symbol.
+                    <br />
+                    It utilizes the StockTwit API and was built using React.js.
+                  </p>
+                </div>
+              </div>
             </a>
           </div>
         </div>
@@ -121,9 +131,9 @@ class Home extends React.Component {
                       <p>Ruby, Nokogiri, Open-Uri, Scraper, OO Desgins</p>
                     </div>
                   </div>
-                  <div class="card bg-danger">
+                  <div class="card bg-primary">
                     <a className="SideHov" href="https://github.com/popemray00/gift" target="-blank" rel="noopener noreferrer">
-                    <img class="card-img-top" id="image" src="images/.jpg" alt="Cards"></img>
+                    <img class="card-img-top" id="image" src="images/gametime_logo_300x300_20190205.webp" alt="Cards"></img>
                     </a>
                     <div class="card-body text-center">
                       <h4 class="card-title">Gift</h4>gametime
